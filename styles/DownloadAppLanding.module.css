@@ -1,0 +1,38 @@
+.wrapper {
+  }
+  
+  .inner {
+    padding-top: 200px;
+  }
+  
+  .title {
+    font-size: 62px;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .description {
+    margin-top: 16px;
+    font-size: var(--mantine-font-size-xl);
+    color: var(--mantine-color-dimmed);
+  }
+  
+  .controls {
+    margin-top: calc(32px * 2);
+  }
+  
+  .control {
+    height: 54px;
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  .control.amazon{
+    color: #fab005;
+  }
+
+  .control.google{
+    color: rgb(136,187,238);
+    color: linear-gradient(90deg, rgba(75,160,244,1) 0%, rgba(98,207,127,1) 25%, rgba(251,195,29,1) 75%, rgba(235,80,67,1) 100%);
+  }

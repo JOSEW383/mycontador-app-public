@@ -1,0 +1,34 @@
+.control {
+  display: block;
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+  border-radius: var(--mantine-radius-md);
+  font-weight: 500;
+  color: var(--mantine-color-gray-0) !important;
+  text-decoration: none !important;
+
+  @mixin hover {
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+  }
+}
+
+.menuButton{
+  margin-top: 2em;
+}
+
+.header{
+position: absolute;
+background-color: transparent;
+}
+
+.main{
+  padding-top: 0;
+}
+
+.title {
+  color: var(--mantine-white);
+  font-family: 'Greycliff CF', var(--mantine-font-family);
+  font-weight: 900;
+  line-height: 1.05;
+  max-width: 500px;
+  font-size: 28px;
+}

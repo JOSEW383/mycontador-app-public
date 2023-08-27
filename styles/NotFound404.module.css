@@ -1,0 +1,60 @@
+.notFoundBackground {
+  background: url("/404/404_dark.svg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.notFoundContainer {
+  text-align: center;
+  background-color: #242529;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10% auto auto auto;
+  min-width: 20em;
+  min-height: 20em;
+}
+
+.notFoundElements {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  font-size: 5.5em;
+  margin-bottom: 0px;
+}
+
+.text {
+  font-size: 1em;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.goHome {
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #1c7ed5;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+
+.goHome:hover {
+  background-color: #1864ab;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+.goHome:active {
+  background-color: #1864ab;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}

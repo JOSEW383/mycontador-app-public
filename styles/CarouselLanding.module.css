@@ -1,0 +1,28 @@
+.swiperContainer {
+  /* background-color: #fefef1; */
+  --swiper-navigation-color: #fff;
+  /* --swiper-pagination-color: #fff; */
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+@media (max-width: 768px) {
+  .swiperContainer {
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+}
+
+.swiperSlide {
+}
+
+.swiperImage {
+  border-radius: 10px;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ffffff;
+}

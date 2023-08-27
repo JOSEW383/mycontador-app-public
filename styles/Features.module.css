@@ -1,0 +1,30 @@
+.wrapper {
+  padding-top: var(--mantine-spacing-xl);
+  padding-bottom: var(--mantine-spacing-50);
+}
+
+.item {
+  display: flex;
+}
+
+.item .itemIcon {
+  padding: var(--mantine-spacing-xs);
+  margin-right: var(--mantine-spacing-md);
+  background-color: #1a2d3f;
+}
+
+.item .itemTitle {
+  margin-bottom: calc(var(--mantine-spacing-xs) / 2);
+}
+
+.title {
+  line-height: 1;
+  text-align: center;
+  margin-top: var(--mantine-spacing-xl);
+}
+
+.description {
+  text-align: center;
+  margin-top: var(--mantine-spacing-xs);
+  color: var(--mantine-color-dimmed);
+}
