@@ -1,18 +1,14 @@
 "use client";
 
 import { useDisclosure } from "@mantine/hooks";
-import {
-  AppShell,
-  Burger,
-  Group,
-  Button,
-} from "@mantine/core";
+import { AppShell, Burger, Group, Button } from "@mantine/core";
 import Image from "next/image";
 import classes from "@/styles/HeaderLanding.module.css";
-import Link from "next/link";
-
+import {Link} from "@/lib/i18n/routing";
+import {useTranslations} from 'next-intl';
 
 export default function HeaderLanding({ children }) {
+  const t = useTranslations("home.header_landing");
   const [opened, { toggle }] = useDisclosure();
 
   function toggleMenu() {
@@ -32,27 +28,32 @@ export default function HeaderLanding({ children }) {
     >
       <AppShell.Header className={classes.header}>
         <Group h="100%" px="md">
-          <Burger opened={opened} onClick={toggleMenu} hiddenFrom="sm" size="sm" />
+          <Burger
+            opened={opened}
+            onClick={toggleMenu}
+            hiddenFrom="sm"
+            size="sm"
+          />
           <Group justify="space-between" style={{ flex: 1 }}>
             <Group className={classes.title}>
               <Image width={50} height={50} alt={"logo"} src={"/favicon.png"} />
-              My Contador
+              MyContador
             </Group>
             <Group gap={0} visibleFrom="sm">
-              <a className={classes.control} href="#features" underline="never">
-                Features
+              <a className={classes.control} href="#features">
+                {t("features")}
               </a>
-              <a className={classes.control} href="#app" underline="never">
-                App
+              <a className={classes.control} href="#app">
+                {t("app")}
               </a>
-              <a className={classes.control} href="#gallery" underline="never">
-                Gallery
+              <a className={classes.control} href="#gallery">
+                {t("gallery")}
               </a>
             </Group>
             <Group ml="xl" gap={0} visibleFrom="sm">
               <Link href="/app">
                 <Button variant="filled" radius="xl">
-                  Login
+                  {t("login")}
                 </Button>
               </Link>
             </Group>
@@ -61,21 +62,26 @@ export default function HeaderLanding({ children }) {
       </AppShell.Header>
 
       <AppShell.Navbar py="md" px={4}>
-      <Link className={classes.control} href="/" onClick={toggleMenu}>
-          Home
+        <Link className={classes.control} href="/" onClick={toggleMenu}>
+          {t("home")}
         </Link>
         <Link className={classes.control} href="#features" onClick={toggleMenu}>
-          Features
+          {t("features")}
         </Link>
         <Link className={classes.control} href="#app" onClick={toggleMenu}>
-          App
+          {t("app")}
         </Link>
         <Link className={classes.control} href="#gallery" onClick={toggleMenu}>
-          Gallery
+          {t("gallery")}
         </Link>
         <Link href="/app">
-          <Button className={classes.menuButton} variant="filled" radius="xl" onClick={toggleMenu}>
-            Login
+          <Button
+            className={classes.menuButton}
+            variant="filled"
+            radius="xl"
+            onClick={toggleMenu}
+          >
+            {t("login")}
           </Button>
         </Link>
       </AppShell.Navbar>

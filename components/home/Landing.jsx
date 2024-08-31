@@ -2,30 +2,32 @@
 
 import { Container, Title, Text, Button } from "@mantine/core";
 import classes from "@/styles/Landing.module.css";
-import Link from "next/link";
+import {Link} from "@/lib/i18n/routing";
+import { useTranslations } from "next-intl";
 
 export default function Landing() {
+  const t = useTranslations("home.landing");
+
   return (
     <div className={classes.root}>
       <Container size="lg">
         <div className={classes.inner}>
           <div className={classes.content}>
             <Title className={classes.title}>
-              Get{" "}
+              {t("title_1")}{" "}
               <Text
                 component="span"
                 inherit
                 variant="gradient"
                 gradient={{ from: "pink", to: "yellow" }}
               >
-                full control
+                {t("title_2")}
               </Text>{" "}
-              of your counter
+              {t("title_3")}
             </Title>
 
             <Text className={classes.description} mt={30}>
-              Manage you water usage by providing access to real-time
-              information about water meters and consumption.
+              {t("description")}
             </Text>
 
             <Link href="/app">
@@ -36,7 +38,7 @@ export default function Landing() {
                 className={classes.control}
                 mt={40}
               >
-                Get started
+                {t("get_started")}
               </Button>
             </Link>
           </div>

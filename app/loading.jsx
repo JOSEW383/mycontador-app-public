@@ -1,5 +1,5 @@
-import MeasurerLoading from "@/components/common/MeasurerLoading";
+import DefaultLoading from "@/components/common/DefaultLoading";
 
-export default function Loading() {
-  return <MeasurerLoading />;
+export default function loading() {
+  return <DefaultLoading />;
 }

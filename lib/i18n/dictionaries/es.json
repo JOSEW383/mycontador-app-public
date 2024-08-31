@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "MyContador",
+    "description": "Obtén el control total de tu contador"
+  },
+  "home": {
+    "metadata": {
+      "title": "MyContador",
+      "description": "Obtén el control total de tu contador"
+    },
+    "header_landing": {
+      "features": "Características",
+      "app": "Aplicación",
+      "gallery": "Galería",
+      "login": "Iniciar sesión",
+      "home": "Inicio"
+    },
+    "landing": {
+      "title_1": "Obtén el",
+      "title_2": "control total",
+      "title_3": "de tu contador",
+      "description": "Gestiona tu consumo de agua proporcionando acceso a información en tiempo real sobre los medidores de agua y el consumo.",
+      "get_started": "Comenzar"
+    },
+    "features": {
+      "subtitle": "Gestión Inteligente de Contadores",
+      "description": "Facilita la tarea del revisor al gestionar todos los contadores y permite a los usuarios tener una estimación de su próxima factura antes de recibirla, además de ver los datos de su contador.",
+      "businessman": {
+        "title": "Gestión Eficiente de Contadores",
+        "description": "Permite a los administradores agregar, editar y eliminar rápidamente contadores de agua de diferentes piscinas"
+      },
+      "survey": {
+        "title": "Información Personalizada de Consumo",
+        "description": "Los usuarios pueden acceder a información detallada sobre su consumo de agua, así como a estimaciones para su próxima factura, ayudándoles a tomar decisiones informadas sobre su uso"
+      },
+      "advertising": {
+        "title": "Notificaciones y Alertas",
+        "description": "Los usuarios reciben notificaciones y alertas para eventos importantes relacionados con sus contadores, como lecturas programadas, alertas de consumo anormal y actualizaciones de estado"
+      },
+      "conference_call": {
+        "title": "Acceso Multiusuario",
+        "description": "Permite asignar múltiples administradores a cada comunidad, facilitando la colaboración y el acceso a la información de los contadores"
+      },
+      "bar_chart": {
+        "title": "Visualización de Datos en Tiempo Real",
+        "description": "Los usuarios pueden acceder a datos en tiempo real de sus contadores, incluyendo gráficos interactivos y métricas que reflejan su consumo y tendencias históricas"
+      },
+      "multiple_devices": {
+        "title": "Acceso Multidispositivo",
+        "description": "La aplicación es accesible desde dispositivos web y Android, permitiendo a los usuarios gestionar su consumo de agua en cualquier momento y lugar"
+      }
+    },
+    "download_app_landing": {
+      "get_app": "Obtén la aplicación!",
+      "get_app_description": "Accede a muchas mas características dentro de la app"
+    },
+    "footer_centered": {
+      "privacy_policy": "Política de privacidad"
+    }
+  },
+  "not_found": {
+    "not_found": "Pagina no encontrada",
+    "go_home": "Ir al inicio"
+  },
+  "app": {
+    "header": {
+      "roles": "Roles",
+      "counters": "Contadores",
+      "add_counter": "Añadir contador",
+      "logout": "Salir"
+    },
+    "roles": {
+      "message": "En este momento, el modo de administrador solo está disponible en la",
+      "android_app": "aplicación de android",
+      "i_am_user": "Soy un usuario",
+      "i_am_admin": "Soy un administrador"
+    },
+    "add_counter": {
+      "welcome": "Bienvenido a MyContador",
+      "welcome_message": "Por favor, añade tu primer contador para comenzar",
+      "invalid": "Contador inválido",
+      "invalid_message": "Los datos proporcionados no son válidos",
+      "counter_password": "Contraseña del contador",
+      "counter_password_message": "Proporcionada por el administrador del agua",
+      "add_counter": "Añadir contador",
+      "identifier": "Identificador",
+      "add": "Añadir"
+    },
+    "counter_list": {
+      "consumition": "Consumido",
+      "name": "Nombre",
+      "id": "Id"
+    },
+    "counter_info": {
+      "community_message": "Mensaje de la comunidad",
+      "counter_info": "Información del contador",
+      "no_documents": "Sin documentos",
+      "no_documents_message": "No hay documentos para este contador",
+      "consumed": "Consumido",
+      "remaining": "Restante",
+      "documents": "Documentos",
+      "identifier": "Identificador",
+      "identifier_description": "Identificador asignado automáticamente al contador",
+      "n_counter": "Nº Contador",
+      "n_counter_description": "Número de contador",
+      "previous_reading": "Lectura anterior",
+      "previous_reading_description": "Lectura de agua anterior en m^3",
+      "current_reading": "Lectura actual",
+      "current_reading_description": "Lectura de agua actual en m^3",
+      "accounting_month": "Mes contable",
+      "accounting_month_description": "Número de mes en el que se distribuye el agua",
+      "limit": "Límite",
+      "limit_description": "Litros máximos de agua que se pueden usar dependiendo de los metros de la finca",
+      "m2_farm": "Finca",
+      "m2_farm_description": "Metros cuadrados de la finca",
+      "zone_sector": "Zona / Sector",
+      "zone_sector_description": "Zona de donde proviene el agua",
+      "state": "Estado",
+      "state_description": "Estado del contador: Abierto, Cerrado, Defectuoso, etc.",
+      "multiplier": "Multiplicador",
+      "multiplier_description": "Multiplicador que se aplica al consumo de agua",
+      "last_reading_date": "Fecha última lectura",
+      "last_reading_date_description": "Fecha de la última lectura del contador"
+    }
+  }
+}

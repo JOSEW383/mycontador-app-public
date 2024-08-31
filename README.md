@@ -1,8 +1,7 @@
-# 💧 My Contador
-
+# 💧 MyContador
 Public repository for the My Contador application.
 
-This application is designed to help users manage their water usage by providing a<ccess to real-time information about their water meters and consumption.
+This application is designed to help users manage their water usage by providing access to real-time information about their water meters and consumption.
 
 ![](https://github.com/josew383/mycontador-app-public/blob/main/public/mycontadorDemo.gif)
 

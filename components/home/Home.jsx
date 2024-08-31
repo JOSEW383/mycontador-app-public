@@ -5,7 +5,7 @@ import FooterCentered from "./FooterCentered";
 import Carousel from "./CarouselLanding";
 import DownloadAppLanding from "./DownloadAppLanding";
 
-export default function Login() {
+export default function Home() {
   return (
     <>
       <HeaderLanding>

@@ -7,16 +7,28 @@ import {
   IconNotebook,
 } from "@tabler/icons-react";
 import classes from "@/styles/FooterCentered.module.css";
+import { useTranslations } from "next-intl";
 
-const defaultLinks=[
+const defaultLinks = [
   {
+    id: "privacy_policy",
     link: "https://josew383.github.io/MyContador_PrivacyPolicy/",
-    label: "Privacy Policy"
-  }
+  },
 ];
 
-export default function FooterCentered({ links }) {
-  if(!links) links = defaultLinks;
+function getDataAndTranslations(t) {
+  return defaultLinks.map((link) => {
+    return {
+      ...link,
+      label: t(link.id),
+    };
+  });
+}
+
+export default function FooterCentered() {
+  const t = useTranslations("home.footer_centered");
+
+  const links = getDataAndTranslations(t);
   const items = links.map((link) => (
     <Anchor
       className={classes.anchor}

@@ -15,7 +15,7 @@ html {
 
 .center-page {
   max-width: 500px;
-  margin-top: 50px;
+  margin-top: var(--mantine-spacing-lg);
   display: flex;
   flex-direction: column;
   margin-left: auto;
